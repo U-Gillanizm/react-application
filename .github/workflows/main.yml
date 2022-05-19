@@ -30,7 +30,7 @@ jobs:
          version: 16
          
       - name: GitHub Action for Yarn
-        uses: Borales/actions-yarn@v1.22.18
+        uses: yarn@v1.22.18
         with:
          cmd: install
         
